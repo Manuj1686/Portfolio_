@@ -1,0 +1,92 @@
+body{
+font-family: Arial;
+margin:0;
+background-color:#f4f4f4;
+}
+
+header{
+background-color:#333;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+nav{
+background-color:#555;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+section{
+padding:30px;
+}
+
+h2{
+text-align:center;
+}
+
+.skill-box{
+display:inline-block;
+background-color:white;
+padding:10px 20px;
+margin:10px;
+border-radius:5px;
+box-shadow:0 0 5px gray;
+}
+
+.project{
+background:white;
+padding:15px;
+margin:15px;
+border-radius:5px;
+box-shadow:0 0 8px gray;
+}
+
+button{
+padding:10px 20px;
+background-color:#333;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+button:hover{
+background-color:black;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:10px;
+margin-top:20px;
+}
+
+/* Responsive Design */
+
+@media(max-width:600px){
+
+nav a{
+display:block;
+margin:10px;
+}
+
+.skill-box{
+display:block;
+width:80%;
+margin:auto;
+margin-top:10px;
+}
+
+}
